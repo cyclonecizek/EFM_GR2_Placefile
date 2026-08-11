@@ -1,0 +1,49 @@
+name: Update KSC Field Mill Placefile
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub scheduled workflows have a practical minimum of 5 minutes.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ksc-fieldmill-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: pip install -r requirements.txt
+
+      - name: Generate placefile
+        env:
+          LOOKBACK_MINUTES: "60"
+          KSC_ARCHIVE_RESULT_URL: ${{ secrets.KSC_ARCHIVE_RESULT_URL }}
+        run: python src/ksc_fieldmill_placefile.py
+
+      - name: Commit updated output
+        run: |
+          git config user.name "ksc-fieldmill-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/ksc_fieldmills.txt docs/ksc_fieldmills.json
+          if git diff --cached --quiet; then
+            echo "No placefile change"
+          else
+            git commit -m "Update KSC field mill observations"
+            git push
+          fi
