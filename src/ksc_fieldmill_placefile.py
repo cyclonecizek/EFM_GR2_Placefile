@@ -26,6 +26,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
+import urllib3
 
 USER_AGENT = "KSC-FieldMill-GRLevelX/2.0"
 
@@ -160,14 +161,36 @@ def fetch_export() -> str:
 
     print(f"KSC export URL: {export_url}")
 
-    r = requests.get(
-        export_url,
-        timeout=60,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "text/csv,text/plain,application/octet-stream,*/*",
-        },
-    )
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/csv,text/plain,application/octet-stream,*/*",
+    }
+
+    try:
+        r = requests.get(
+            export_url,
+            timeout=60,
+            headers=headers,
+        )
+    except requests.exceptions.SSLError:
+        from urllib.parse import urlparse
+        host = urlparse(export_url).hostname
+        if host != "kscweather.ksc.nasa.gov":
+            raise
+
+        print(
+            "WARNING: KSC TLS certificate chain could not be validated by "
+            "the GitHub runner; retrying this exact NASA host with TLS "
+            "certificate verification disabled."
+        )
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        r = requests.get(
+            export_url,
+            timeout=60,
+            headers=headers,
+            verify=False,
+        )
+
     r.raise_for_status()
     return r.text
 
