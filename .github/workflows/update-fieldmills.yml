@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,10 +42,17 @@ jobs:
         run: |
           git config user.name "ksc-fieldmill-bot"
           git config user.email "actions@users.noreply.github.com"
+
           git add docs/ksc_fieldmills.txt docs/ksc_fieldmills.json
+
           if git diff --cached --quiet; then
             echo "No placefile change"
-          else
-            git commit -m "Update KSC field mill observations"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update KSC field mill observations"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
