@@ -1,11 +1,10 @@
 name: Deploy GitHub Pages
 
 on:
-  push:
-    branches: ["main"]
-    paths:
-      - "docs/**"
-      - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows: ["Update KSC Field Mill Placefile"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -19,16 +18,30 @@ concurrency:
 
 jobs:
   deploy:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Deploy
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
         id: deployment
         uses: actions/deploy-pages@v4
