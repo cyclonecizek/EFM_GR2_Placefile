@@ -213,18 +213,49 @@ def latest_by_site(obs: list[Observation]) -> dict[str, Observation]:
             latest[o.site] = o
     return latest
 
-def color_for(vpm: float) -> tuple[int, int, int]:
-    # Visualization categories only, not NASA/Space Force safety criteria.
+def default_icon_url() -> str:
+    explicit = os.getenv("EFM_ICON_URL", "").strip()
+    if explicit:
+        return explicit
+
+    repo = os.getenv("GITHUB_REPOSITORY", "").strip()
+    if "/" in repo:
+        owner, name = repo.split("/", 1)
+        return f"https://{owner}.github.io/{name}/efm_status_icons.png"
+
+    return "https://cyclonecizek.github.io/EFM_GR2_Placefile/efm_status_icons.png"
+
+
+ICON_URL = default_icon_url()
+
+
+def category_for(vpm: float) -> tuple[int, tuple[int, int, int], str]:
+    """
+    Visualization categories based on absolute one-minute mean electric field.
+
+      icon 1 / green  : |EF| < 500 V/m
+      icon 2 / yellow : 500 <= |EF| < 1000 V/m
+      icon 3 / red    : |EF| >= 1000 V/m
+
+    These are user-selected visualization thresholds, not official
+    NASA/Space Force lightning or launch criteria.
+    """
     a = abs(vpm)
     if a < 500:
-        return (160, 160, 160)
+        return 1, (40, 220, 70), "GREEN"
     if a < 1000:
-        return (80, 200, 120)
-    if a < 2000:
-        return (235, 210, 60)
-    if a < 5000:
-        return (245, 145, 45)
-    return (240, 70, 70)
+        return 2, (255, 205, 25), "YELLOW"
+    return 3, (255, 55, 55), "RED"
+
+
+def esc_hover(text: str) -> str:
+    return (
+        text.replace("\\", "\\\\")
+            .replace('"', '\\"')
+            .replace("\r", "")
+            .replace("\n", "\\n")
+    )
+
 
 def build_placefile(
     latest: dict[str, Observation],
@@ -232,28 +263,46 @@ def build_placefile(
     now: datetime,
 ) -> str:
     lines = [
-        "Title: KSC 1-Min Field Mills",
+        "; KSC 1-Min Electric Field Mills",
         "RefreshSeconds: 60",
         "Threshold: 200",
+        f'IconFile: 1, 64, 64, 32, 32, "{ICON_URL}"',
+        'Font: 1, 12, 1, "Arial"',
         "; Source: NASA KSC Spaceport Weather Archive FieldMill Export",
         "; OneMinuteMean units: V/m",
-        "; Colors are visualization categories only, NOT official launch/lightning criteria.",
+        "; User visualization thresholds use absolute electric-field magnitude:",
+        "; green <500 V/m; yellow 500-999 V/m; red >=1000 V/m.",
+        "; These colors are NOT official launch/lightning criteria.",
     ]
 
     for site in sorted(latest):
         if site not in sites:
             continue
+
         o = latest[site]
         lat, lon = sites[site]
         age_min = max(0, int((now - o.time).total_seconds() / 60))
-        r, g, b = color_for(o.value_vpm)
+        icon_no, (r, g, b), category = category_for(o.value_vpm)
+
+        hover = esc_hover(
+            f"KSC Electric Field Mill {site}\n"
+            f"1-min Mean: {o.value_vpm:+.0f} V/m ({o.value_vpm/1000:+.3f} kV/m)\n"
+            f"Absolute EF: {abs(o.value_vpm):.0f} V/m\n"
+            f"Category: {category}\n"
+            f"Observation: {o.time:%Y-%m-%d %H:%MZ}\n"
+            f"Age: {age_min} min\n"
+            f"Source: NASA KSC Spaceport Weather Archive"
+        )
+
+        lines.append(f"Object: {lat:.8f}, {lon:.8f}")
+        # Baked-color concentric-circle status icon.
+        lines.append(f'Icon: 0, 0, 0, 1, {icon_no}, "{hover}"')
+        # Numeric 1-minute mean directly below the icon, matching category color.
         lines.append(f"Color: {r} {g} {b}")
         lines.append(
-            f"Place: {lat:.8f}, {lon:.8f}, "
-            f"{site} {o.value_vpm:+.0f} V/m "
-            f"({o.value_vpm/1000:+.3f} kV/m) "
-            f"{o.time:%H%MZ} age {age_min}m"
+            f'Text: -18, -34, 1, "{o.value_vpm:+.0f}", "{hover}"'
         )
+        lines.append("End:")
 
     lines.append("")
     return "\n".join(lines)
