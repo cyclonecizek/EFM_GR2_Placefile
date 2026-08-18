@@ -221,9 +221,9 @@ def default_icon_url() -> str:
     repo = os.getenv("GITHUB_REPOSITORY", "").strip()
     if "/" in repo:
         owner, name = repo.split("/", 1)
-        return f"https://{owner}.github.io/{name}/efm_status_icons.png"
+        return f"http://{owner}.github.io/{name}/efm_status_icons.png"
 
-    return "https://cyclonecizek.github.io/EFM_GR2_Placefile/efm_status_icons.png"
+    return "http://cyclonecizek.github.io/EFM_GR2_Placefile/efm_status_icons.png"
 
 
 ICON_URL = default_icon_url()
