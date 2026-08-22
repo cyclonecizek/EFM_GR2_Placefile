@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-22T08:13:01.632994+00:00",
+  "generated_utc": "2026-08-22T08:48:58.526576+00:00",
   "source": "NASA KSC Spaceport Weather Archive",
   "schema": [
     "OneMinuteMean",
@@ -7,196 +7,196 @@
     "Time",
     "MillNo"
   ],
-  "records_parsed": 1269,
+  "records_parsed": 1134,
   "latest_station_count": 27,
   "station_count_plotted": 27,
   "observations": [
     {
       "site": "FM02",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 161.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 197.0,
       "latitude": 28.68754581,
       "longitude": -80.71951397
     },
     {
       "site": "FM04",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 104.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 100.0,
       "latitude": 28.66433003,
       "longitude": -80.63912575
     },
     {
       "site": "FM05",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 117.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 125.0,
       "latitude": 28.65818442,
       "longitude": -80.6993575
     },
     {
       "site": "FM06",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 172.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 137.0,
       "latitude": 28.64397406,
       "longitude": -80.666388
     },
     {
       "site": "FM07",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 227.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 343.0,
       "latitude": 28.64237606,
       "longitude": -80.74761836
     },
     {
       "site": "FM09",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 114.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 157.0,
       "latitude": 28.62141806,
       "longitude": -80.60797192
     },
     {
       "site": "FM11",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 123.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 129.0,
       "latitude": 28.60576031,
       "longitude": -80.67387342
     },
     {
       "site": "FM12",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 127.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 156.0,
       "latitude": 28.60226208,
       "longitude": -80.64093842
     },
     {
       "site": "FM14",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 142.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 144.0,
       "latitude": 28.57852431,
       "longitude": -80.60858731
     },
     {
       "site": "FM15",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 103.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 124.0,
       "latitude": 28.57675722,
       "longitude": -80.64310431
     },
     {
       "site": "FM16",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 141.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 140.0,
       "latitude": 28.57529606,
       "longitude": -80.57310919
     },
     {
       "site": "FM17",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 102.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 126.0,
       "latitude": 28.56204775,
       "longitude": -80.67002806
     },
     {
       "site": "FM18",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 134.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 203.0,
       "latitude": 28.55517669,
       "longitude": -80.70211531
     },
     {
       "site": "FM19",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 110.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 131.0,
       "latitude": 28.54948392,
       "longitude": -80.62038989
     },
     {
       "site": "FM20",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 132.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 138.0,
       "latitude": 28.54170181,
       "longitude": -80.64443092
     },
     {
       "site": "FM21",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 81.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 89.0,
       "latitude": 28.52575131,
       "longitude": -80.622098
     },
     {
       "site": "FM22",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 85.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 111.0,
       "latitude": 28.5069275,
       "longitude": -80.69359086
     },
     {
       "site": "FM24",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 127.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 163.0,
       "latitude": 28.47858928,
       "longitude": -80.67486964
     },
     {
       "site": "FM25",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 138.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 154.0,
       "latitude": 28.42473547,
       "longitude": -80.66379628
     },
     {
       "site": "FM26",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 112.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 137.0,
       "latitude": 28.54937547,
       "longitude": -80.56698797
     },
     {
       "site": "FM27",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 109.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 103.0,
       "latitude": 28.50308214,
       "longitude": -80.55812403
     },
     {
       "site": "FM28",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 106.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 107.0,
       "latitude": 28.46023958,
       "longitude": -80.52722439
     },
     {
       "site": "FM29",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 160.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 173.0,
       "latitude": 28.46256017,
       "longitude": -80.58355694
     },
     {
       "site": "FM30",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 179.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 127.0,
       "latitude": 28.47511169,
       "longitude": -80.55841622
     },
     {
       "site": "FM31",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 134.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 162.0,
       "latitude": 28.42033428,
       "longitude": -80.59115803
     },
     {
       "site": "FM32",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 138.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 148.0,
       "latitude": 28.43688014,
       "longitude": -80.58009844
     },
     {
       "site": "FM35",
-      "time_utc": "2026-08-22T07:59:00+00:00",
-      "value_vpm": 108.0,
+      "time_utc": "2026-08-22T08:29:00+00:00",
+      "value_vpm": 121.0,
       "latitude": 28.60204986,
       "longitude": -80.58942308
     }
