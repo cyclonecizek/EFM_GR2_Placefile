@@ -9,137 +9,137 @@ Font: 1, 12, 1, "Arial"
 ; green <500 V/m; yellow 500-999 V/m; red >=1000 V/m.
 ; These colors are NOT official launch/lightning criteria.
 Object: 28.68754581, -80.71951397
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM02\n1-min Mean: +392 V/m (+0.392 kV/m)\nAbsolute EF: 392 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM02\n1-min Mean: +433 V/m (+0.433 kV/m)\nAbsolute EF: 433 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+392", "KSC Electric Field Mill FM02\n1-min Mean: +392 V/m (+0.392 kV/m)\nAbsolute EF: 392 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+433", "KSC Electric Field Mill FM02\n1-min Mean: +433 V/m (+0.433 kV/m)\nAbsolute EF: 433 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.66433003, -80.63912575
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM04\n1-min Mean: +212 V/m (+0.212 kV/m)\nAbsolute EF: 212 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM04\n1-min Mean: +302 V/m (+0.302 kV/m)\nAbsolute EF: 302 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+212", "KSC Electric Field Mill FM04\n1-min Mean: +212 V/m (+0.212 kV/m)\nAbsolute EF: 212 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+302", "KSC Electric Field Mill FM04\n1-min Mean: +302 V/m (+0.302 kV/m)\nAbsolute EF: 302 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.65818442, -80.69935750
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM05\n1-min Mean: +274 V/m (+0.274 kV/m)\nAbsolute EF: 274 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
-Color: 40 220 70
-Text: -18, -34, 1, "+274", "KSC Electric Field Mill FM05\n1-min Mean: +274 V/m (+0.274 kV/m)\nAbsolute EF: 274 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM05\n1-min Mean: +502 V/m (+0.502 kV/m)\nAbsolute EF: 502 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
+Color: 255 205 25
+Text: -18, -34, 1, "+502", "KSC Electric Field Mill FM05\n1-min Mean: +502 V/m (+0.502 kV/m)\nAbsolute EF: 502 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.64397406, -80.66638800
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM06\n1-min Mean: +291 V/m (+0.291 kV/m)\nAbsolute EF: 291 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM06\n1-min Mean: +423 V/m (+0.423 kV/m)\nAbsolute EF: 423 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+291", "KSC Electric Field Mill FM06\n1-min Mean: +291 V/m (+0.291 kV/m)\nAbsolute EF: 291 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+423", "KSC Electric Field Mill FM06\n1-min Mean: +423 V/m (+0.423 kV/m)\nAbsolute EF: 423 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.64237606, -80.74761836
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM07\n1-min Mean: +742 V/m (+0.742 kV/m)\nAbsolute EF: 742 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM07\n1-min Mean: +746 V/m (+0.746 kV/m)\nAbsolute EF: 746 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 255 205 25
-Text: -18, -34, 1, "+742", "KSC Electric Field Mill FM07\n1-min Mean: +742 V/m (+0.742 kV/m)\nAbsolute EF: 742 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+746", "KSC Electric Field Mill FM07\n1-min Mean: +746 V/m (+0.746 kV/m)\nAbsolute EF: 746 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.62141806, -80.60797192
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM09\n1-min Mean: +219 V/m (+0.219 kV/m)\nAbsolute EF: 219 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM09\n1-min Mean: +275 V/m (+0.275 kV/m)\nAbsolute EF: 275 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+219", "KSC Electric Field Mill FM09\n1-min Mean: +219 V/m (+0.219 kV/m)\nAbsolute EF: 219 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+275", "KSC Electric Field Mill FM09\n1-min Mean: +275 V/m (+0.275 kV/m)\nAbsolute EF: 275 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.60576031, -80.67387342
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM11\n1-min Mean: +318 V/m (+0.318 kV/m)\nAbsolute EF: 318 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
-Color: 40 220 70
-Text: -18, -34, 1, "+318", "KSC Electric Field Mill FM11\n1-min Mean: +318 V/m (+0.318 kV/m)\nAbsolute EF: 318 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM11\n1-min Mean: +610 V/m (+0.610 kV/m)\nAbsolute EF: 610 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
+Color: 255 205 25
+Text: -18, -34, 1, "+610", "KSC Electric Field Mill FM11\n1-min Mean: +610 V/m (+0.610 kV/m)\nAbsolute EF: 610 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.60226208, -80.64093842
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM12\n1-min Mean: +352 V/m (+0.352 kV/m)\nAbsolute EF: 352 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM12\n1-min Mean: +392 V/m (+0.392 kV/m)\nAbsolute EF: 392 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+352", "KSC Electric Field Mill FM12\n1-min Mean: +352 V/m (+0.352 kV/m)\nAbsolute EF: 352 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+392", "KSC Electric Field Mill FM12\n1-min Mean: +392 V/m (+0.392 kV/m)\nAbsolute EF: 392 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.57852431, -80.60858731
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM14\n1-min Mean: +364 V/m (+0.364 kV/m)\nAbsolute EF: 364 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM14\n1-min Mean: +474 V/m (+0.474 kV/m)\nAbsolute EF: 474 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+364", "KSC Electric Field Mill FM14\n1-min Mean: +364 V/m (+0.364 kV/m)\nAbsolute EF: 364 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+474", "KSC Electric Field Mill FM14\n1-min Mean: +474 V/m (+0.474 kV/m)\nAbsolute EF: 474 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.57675722, -80.64310431
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM15\n1-min Mean: +141 V/m (+0.141 kV/m)\nAbsolute EF: 141 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM15\n1-min Mean: +205 V/m (+0.205 kV/m)\nAbsolute EF: 205 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+141", "KSC Electric Field Mill FM15\n1-min Mean: +141 V/m (+0.141 kV/m)\nAbsolute EF: 141 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+205", "KSC Electric Field Mill FM15\n1-min Mean: +205 V/m (+0.205 kV/m)\nAbsolute EF: 205 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.57529606, -80.57310919
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM16\n1-min Mean: +142 V/m (+0.142 kV/m)\nAbsolute EF: 142 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM16\n1-min Mean: +158 V/m (+0.158 kV/m)\nAbsolute EF: 158 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+142", "KSC Electric Field Mill FM16\n1-min Mean: +142 V/m (+0.142 kV/m)\nAbsolute EF: 142 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+158", "KSC Electric Field Mill FM16\n1-min Mean: +158 V/m (+0.158 kV/m)\nAbsolute EF: 158 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.56204775, -80.67002806
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM17\n1-min Mean: +254 V/m (+0.254 kV/m)\nAbsolute EF: 254 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
-Color: 40 220 70
-Text: -18, -34, 1, "+254", "KSC Electric Field Mill FM17\n1-min Mean: +254 V/m (+0.254 kV/m)\nAbsolute EF: 254 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM17\n1-min Mean: +674 V/m (+0.674 kV/m)\nAbsolute EF: 674 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
+Color: 255 205 25
+Text: -18, -34, 1, "+674", "KSC Electric Field Mill FM17\n1-min Mean: +674 V/m (+0.674 kV/m)\nAbsolute EF: 674 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.55517669, -80.70211531
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM18\n1-min Mean: +574 V/m (+0.574 kV/m)\nAbsolute EF: 574 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM18\n1-min Mean: +753 V/m (+0.753 kV/m)\nAbsolute EF: 753 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 255 205 25
-Text: -18, -34, 1, "+574", "KSC Electric Field Mill FM18\n1-min Mean: +574 V/m (+0.574 kV/m)\nAbsolute EF: 574 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+753", "KSC Electric Field Mill FM18\n1-min Mean: +753 V/m (+0.753 kV/m)\nAbsolute EF: 753 V/m\nCategory: YELLOW\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.54948392, -80.62038989
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM19\n1-min Mean: +263 V/m (+0.263 kV/m)\nAbsolute EF: 263 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM19\n1-min Mean: +371 V/m (+0.371 kV/m)\nAbsolute EF: 371 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+263", "KSC Electric Field Mill FM19\n1-min Mean: +263 V/m (+0.263 kV/m)\nAbsolute EF: 263 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+371", "KSC Electric Field Mill FM19\n1-min Mean: +371 V/m (+0.371 kV/m)\nAbsolute EF: 371 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.54170181, -80.64443092
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM20\n1-min Mean: +228 V/m (+0.228 kV/m)\nAbsolute EF: 228 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM20\n1-min Mean: +493 V/m (+0.493 kV/m)\nAbsolute EF: 493 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+228", "KSC Electric Field Mill FM20\n1-min Mean: +228 V/m (+0.228 kV/m)\nAbsolute EF: 228 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+493", "KSC Electric Field Mill FM20\n1-min Mean: +493 V/m (+0.493 kV/m)\nAbsolute EF: 493 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.52575131, -80.62209800
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM21\n1-min Mean: +183 V/m (+0.183 kV/m)\nAbsolute EF: 183 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM21\n1-min Mean: +303 V/m (+0.303 kV/m)\nAbsolute EF: 303 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+183", "KSC Electric Field Mill FM21\n1-min Mean: +183 V/m (+0.183 kV/m)\nAbsolute EF: 183 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+303", "KSC Electric Field Mill FM21\n1-min Mean: +303 V/m (+0.303 kV/m)\nAbsolute EF: 303 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.50692750, -80.69359086
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM22\n1-min Mean: +110 V/m (+0.110 kV/m)\nAbsolute EF: 110 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM22\n1-min Mean: +240 V/m (+0.240 kV/m)\nAbsolute EF: 240 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+110", "KSC Electric Field Mill FM22\n1-min Mean: +110 V/m (+0.110 kV/m)\nAbsolute EF: 110 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+240", "KSC Electric Field Mill FM22\n1-min Mean: +240 V/m (+0.240 kV/m)\nAbsolute EF: 240 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.47858928, -80.67486964
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM24\n1-min Mean: +256 V/m (+0.256 kV/m)\nAbsolute EF: 256 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM24\n1-min Mean: +411 V/m (+0.411 kV/m)\nAbsolute EF: 411 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+256", "KSC Electric Field Mill FM24\n1-min Mean: +256 V/m (+0.256 kV/m)\nAbsolute EF: 256 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+411", "KSC Electric Field Mill FM24\n1-min Mean: +411 V/m (+0.411 kV/m)\nAbsolute EF: 411 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.42473547, -80.66379628
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM25\n1-min Mean: +194 V/m (+0.194 kV/m)\nAbsolute EF: 194 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM25\n1-min Mean: +322 V/m (+0.322 kV/m)\nAbsolute EF: 322 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+194", "KSC Electric Field Mill FM25\n1-min Mean: +194 V/m (+0.194 kV/m)\nAbsolute EF: 194 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+322", "KSC Electric Field Mill FM25\n1-min Mean: +322 V/m (+0.322 kV/m)\nAbsolute EF: 322 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.54937547, -80.56698797
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM26\n1-min Mean: +231 V/m (+0.231 kV/m)\nAbsolute EF: 231 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM26\n1-min Mean: +293 V/m (+0.293 kV/m)\nAbsolute EF: 293 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+231", "KSC Electric Field Mill FM26\n1-min Mean: +231 V/m (+0.231 kV/m)\nAbsolute EF: 231 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+293", "KSC Electric Field Mill FM26\n1-min Mean: +293 V/m (+0.293 kV/m)\nAbsolute EF: 293 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.50308214, -80.55812403
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM27\n1-min Mean: +169 V/m (+0.169 kV/m)\nAbsolute EF: 169 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM27\n1-min Mean: +211 V/m (+0.211 kV/m)\nAbsolute EF: 211 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+169", "KSC Electric Field Mill FM27\n1-min Mean: +169 V/m (+0.169 kV/m)\nAbsolute EF: 169 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+211", "KSC Electric Field Mill FM27\n1-min Mean: +211 V/m (+0.211 kV/m)\nAbsolute EF: 211 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.46023958, -80.52722439
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM28\n1-min Mean: +248 V/m (+0.248 kV/m)\nAbsolute EF: 248 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM28\n1-min Mean: +324 V/m (+0.324 kV/m)\nAbsolute EF: 324 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+248", "KSC Electric Field Mill FM28\n1-min Mean: +248 V/m (+0.248 kV/m)\nAbsolute EF: 248 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+324", "KSC Electric Field Mill FM28\n1-min Mean: +324 V/m (+0.324 kV/m)\nAbsolute EF: 324 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.46256017, -80.58355694
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM29\n1-min Mean: +266 V/m (+0.266 kV/m)\nAbsolute EF: 266 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM29\n1-min Mean: +212 V/m (+0.212 kV/m)\nAbsolute EF: 212 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+266", "KSC Electric Field Mill FM29\n1-min Mean: +266 V/m (+0.266 kV/m)\nAbsolute EF: 266 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+212", "KSC Electric Field Mill FM29\n1-min Mean: +212 V/m (+0.212 kV/m)\nAbsolute EF: 212 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.47511169, -80.55841622
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM30\n1-min Mean: +341 V/m (+0.341 kV/m)\nAbsolute EF: 341 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM30\n1-min Mean: +367 V/m (+0.367 kV/m)\nAbsolute EF: 367 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+341", "KSC Electric Field Mill FM30\n1-min Mean: +341 V/m (+0.341 kV/m)\nAbsolute EF: 341 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+367", "KSC Electric Field Mill FM30\n1-min Mean: +367 V/m (+0.367 kV/m)\nAbsolute EF: 367 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.42033428, -80.59115803
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM31\n1-min Mean: +213 V/m (+0.213 kV/m)\nAbsolute EF: 213 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM31\n1-min Mean: +134 V/m (+0.134 kV/m)\nAbsolute EF: 134 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+213", "KSC Electric Field Mill FM31\n1-min Mean: +213 V/m (+0.213 kV/m)\nAbsolute EF: 213 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+134", "KSC Electric Field Mill FM31\n1-min Mean: +134 V/m (+0.134 kV/m)\nAbsolute EF: 134 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.43688014, -80.58009844
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM32\n1-min Mean: +255 V/m (+0.255 kV/m)\nAbsolute EF: 255 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM32\n1-min Mean: +210 V/m (+0.210 kV/m)\nAbsolute EF: 210 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+255", "KSC Electric Field Mill FM32\n1-min Mean: +255 V/m (+0.255 kV/m)\nAbsolute EF: 255 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+210", "KSC Electric Field Mill FM32\n1-min Mean: +210 V/m (+0.210 kV/m)\nAbsolute EF: 210 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
 Object: 28.60204986, -80.58942308
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM35\n1-min Mean: +171 V/m (+0.171 kV/m)\nAbsolute EF: 171 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM35\n1-min Mean: +204 V/m (+0.204 kV/m)\nAbsolute EF: 204 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 Color: 40 220 70
-Text: -18, -34, 1, "+171", "KSC Electric Field Mill FM35\n1-min Mean: +171 V/m (+0.171 kV/m)\nAbsolute EF: 171 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:29Z\nAge: 23 min\nSource: NASA KSC Spaceport Weather Archive"
+Text: -18, -34, 1, "+204", "KSC Electric Field Mill FM35\n1-min Mean: +204 V/m (+0.204 kV/m)\nAbsolute EF: 204 V/m\nCategory: GREEN\nObservation: 2026-08-23 11:59Z\nAge: 20 min\nSource: NASA KSC Spaceport Weather Archive"
 End:
