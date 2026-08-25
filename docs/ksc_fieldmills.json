@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-25T17:38:22.544315+00:00",
+  "generated_utc": "2026-08-25T18:02:23.713339+00:00",
   "source": "NASA KSC Spaceport Weather Archive",
   "schema": [
     "OneMinuteMean",
@@ -7,56 +7,56 @@
     "Time",
     "MillNo"
   ],
-  "records_parsed": 154,
+  "records_parsed": 196,
   "latest_station_count": 7,
   "station_count_plotted": 7,
   "observations": [
     {
       "site": "FM26",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 163.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 162.0,
       "latitude": 28.54937547,
       "longitude": -80.56698797
     },
     {
       "site": "FM27",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 141.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 106.0,
       "latitude": 28.50308214,
       "longitude": -80.55812403
     },
     {
       "site": "FM28",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 243.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 251.0,
       "latitude": 28.46023958,
       "longitude": -80.52722439
     },
     {
       "site": "FM29",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 196.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 175.0,
       "latitude": 28.46256017,
       "longitude": -80.58355694
     },
     {
       "site": "FM30",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 185.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 256.0,
       "latitude": 28.47511169,
       "longitude": -80.55841622
     },
     {
       "site": "FM31",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 162.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 300.0,
       "latitude": 28.42033428,
       "longitude": -80.59115803
     },
     {
       "site": "FM32",
-      "time_utc": "2026-08-25T16:59:00+00:00",
-      "value_vpm": 230.0,
+      "time_utc": "2026-08-25T17:29:00+00:00",
+      "value_vpm": 209.0,
       "latitude": 28.43688014,
       "longitude": -80.58009844
     }
