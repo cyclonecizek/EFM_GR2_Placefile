@@ -1,0 +1,57 @@
+name: Update MERLIN Lightning Placefiles
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/merlin_placefiles.py"
+      - "tests/test_merlin.py"
+      - ".github/workflows/update-merlin.yml"
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merlin-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Test placefile generators
+        run: python -m unittest discover -s tests
+      - name: Generate live MERLIN CC and CG placefiles
+        env:
+          MERLIN_TRAIL_MINUTES: "15"
+          MERLIN_HISTORY_MINUTES: "60"
+        run: python src/merlin_placefiles.py
+      - name: Commit MERLIN outputs
+        run: |
+          git config user.name "merlin-placefile-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/merlin_cg.txt docs/merlin_cc_density.txt docs/merlin_status.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update live MERLIN CC and CG placefiles"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep 5
+          done
+          exit 1

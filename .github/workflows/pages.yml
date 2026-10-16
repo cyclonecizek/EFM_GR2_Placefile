@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   workflow_run:
-    workflows: ["Update KSC Field Mill Placefile"]
+    workflows: ["Update KSC Field Mill Placefile", "Update MERLIN Lightning Placefiles"]
     types:
       - completed
   workflow_dispatch:
