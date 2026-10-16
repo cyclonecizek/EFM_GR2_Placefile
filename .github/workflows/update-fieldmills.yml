@@ -2,6 +2,13 @@ name: Update KSC Field Mill Placefile
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/update-fieldmills.yml"
   schedule:
     # GitHub scheduled workflows have a practical minimum of 5 minutes.
     - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
@@ -30,10 +37,10 @@ jobs:
       - name: Install dependency
         run: pip install -r requirements.txt
 
+      - name: Test API parser
+        run: python -m unittest discover -s tests
+
       - name: Generate placefile
-        env:
-          LOOKBACK_MINUTES: "60"
-          KSC_ARCHIVE_RESULT_URL: ${{ secrets.KSC_ARCHIVE_RESULT_URL }}
         run: python src/ksc_fieldmill_placefile.py
 
       - name: Commit updated output

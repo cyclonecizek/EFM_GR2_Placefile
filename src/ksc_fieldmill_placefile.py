@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
-"""
-KSC Spaceport Weather Archive 1-minute Field Mill -> GRLevelX placefile.
-
-Known KSC export schema:
-    OneMinuteMean,Date,Time,MillNo
-
-The generator:
-- fetches or reads a KSC FieldMill/Export CSV
-- parses timestamps explicitly
-- finds the newest observation per mill (CSV order is not trusted)
-- joins MillNo to the coordinate table
-- writes a GRLevelX placefile and diagnostic JSON
-"""
+"""Live LPLWS one-minute field mill API to GRLevelX placefile."""
 
 from __future__ import annotations
 
@@ -26,7 +14,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
-import urllib3
+import time
 
 USER_AGENT = "KSC-FieldMill-GRLevelX/2.0"
 
@@ -35,6 +23,9 @@ class Observation:
     site: str
     time: datetime
     value_vpm: float
+    flag: str | None = None
+    latitude: float | None = None
+    longitude: float | None = None
 
 def parse_number(value: str) -> float | None:
     try:
@@ -107,92 +98,59 @@ def parse_ksc_export_csv(text: str) -> list[Observation]:
     return out
 
 
-BASE60 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567"
+API_BASE = os.getenv("LPLWS_API_BASE_URL", "https://codiapi-lplws1.rad.spaceforce.mil").rstrip("/")
 
-# Verified 2026 token structure for the current all-mills + OneMinuteMean selection:
-#
-#   Ba M D H m ABa M D H m AAAABaAABACAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZAaAbAcAdAeAfAgAhAiAj
-#
-# Example:
-#   Aug 11 14:00 -> Aug 11 14:10
-#   BaILOAABaILOKAAAABaAABACAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZAaAbAcAdAeAfAgAhAiAj
-TOKEN_PREFIX = "Ba"
-TOKEN_BETWEEN = "ABa"
-TOKEN_AFTER_END = "AAAABaAABACAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZAaAbAcAdAeAfAgAhAiAj"
 
-def enc60(n: int) -> str:
-    if not 0 <= n < len(BASE60):
-        raise ValueError(f"value {n} is outside KSC single-character range")
-    return BASE60[n]
+def fetch_observations() -> list[Observation]:
+    # Latest returns the entire network for one minute, not just one row.
+    for attempt in range(3):
+        try:
+            r = requests.get(API_BASE + "/lplws_1min/latest", timeout=45,
+                             headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+            r.raise_for_status()
+            return parse_api(r.json())
+        except requests.exceptions.RequestException as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            if attempt == 2 or (status is not None and status < 500 and status != 429):
+                raise
+            time.sleep(2 ** attempt)
 
-def encode_ksc_dt(dt: datetime) -> str:
-    dt = dt.astimezone(timezone.utc)
-    return enc60(dt.month) + enc60(dt.day) + enc60(dt.hour) + enc60(dt.minute)
 
-def build_ksc_token(start: datetime, end: datetime) -> str:
-    if end <= start:
-        raise ValueError("end time must be later than start time")
-    if start.year != 2026 or end.year != 2026:
-        raise ValueError(
-            "Automatic token generation is currently verified only for 2026."
-        )
-    return (
-        TOKEN_PREFIX
-        + encode_ksc_dt(start)
-        + TOKEN_BETWEEN
-        + encode_ksc_dt(end)
-        + TOKEN_AFTER_END
-    )
+def parse_api(payload) -> list[Observation]:
+    if not isinstance(payload, list):
+        raise ValueError("LPLWS API response must be a JSON array")
+    out = []
+    for row in payload:
+        if not isinstance(row, dict):
+            raise ValueError("LPLWS API records must be objects")
+        value = parse_number(row.get("value"))
+        site = normalize_site(row.get("field_mill", ""))
+        if value is None or site is None:
+            continue
+        dt = datetime.fromisoformat(f"{row['reading_date']}T{row['reading_time']}".replace("Z", "+00:00"))
+        dt = dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt.astimezone(timezone.utc)
+        # Flag semantics are unconfirmed. Preserve flags without treating X as missing.
+        out.append(Observation(site, dt, value, row.get("flag"),
+                               parse_number(row.get("lat")), parse_number(row.get("lon"))))
+    if not out:
+        raise ValueError("No valid LPLWS API observations parsed")
+    return out
 
-def build_export_url(start: datetime, end: datetime) -> str:
-    return (
-        "https://kscweather.ksc.nasa.gov/wxarchive/FieldMill/Export/"
-        + build_ksc_token(start, end)
-    )
 
-def fetch_export() -> str:
-    export_url = os.getenv("KSC_ARCHIVE_RESULT_URL", "").strip()
+def read_observations(path: str) -> list[Observation]:
+    text = Path(path).read_text(encoding="utf-8-sig")
+    return parse_api(json.loads(text)) if text.lstrip().startswith("[") else parse_ksc_export_csv(text)
 
-    if not export_url:
-        lookback = int(os.getenv("LOOKBACK_MINUTES", "60"))
-        end = datetime.now(timezone.utc).replace(second=0, microsecond=0)
-        start = end - timedelta(minutes=lookback)
-        export_url = build_export_url(start, end)
 
-    print(f"KSC export URL: {export_url}")
+def observation_sites(latest, configured):
+    # Keep the configured Cape network; do not introduce placeholder API mill IDs.
+    sites = dict(configured)
+    for site, o in latest.items():
+        if (site in configured and o.latitude is not None and o.longitude is not None
+                and -90 <= o.latitude <= 90 and -180 <= o.longitude <= 180):
+            sites[site] = (o.latitude, o.longitude)
+    return sites
 
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "text/csv,text/plain,application/octet-stream,*/*",
-    }
-
-    try:
-        r = requests.get(
-            export_url,
-            timeout=60,
-            headers=headers,
-        )
-    except requests.exceptions.SSLError:
-        from urllib.parse import urlparse
-        host = urlparse(export_url).hostname
-        if host != "kscweather.ksc.nasa.gov":
-            raise
-
-        print(
-            "WARNING: KSC TLS certificate chain could not be validated by "
-            "the GitHub runner; retrying this exact NASA host with TLS "
-            "certificate verification disabled."
-        )
-        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        r = requests.get(
-            export_url,
-            timeout=60,
-            headers=headers,
-            verify=False,
-        )
-
-    r.raise_for_status()
-    return r.text
 
 def load_sites(path: Path) -> dict[str, tuple[float, float]]:
     sites = {}
@@ -268,8 +226,8 @@ def build_placefile(
         "Threshold: 200",
         f'IconFile: 1, 64, 64, 32, 32, "{ICON_URL}"',
         'Font: 1, 12, 1, "Arial"',
-        "; Source: NASA KSC Spaceport Weather Archive FieldMill Export",
-        "; OneMinuteMean units: V/m",
+        "; Source: Live LPLWS one-minute API",
+        "; One-minute electric potential gradient units: V/m",
         "; User visualization thresholds use absolute electric-field magnitude:",
         "; green <500 V/m; yellow 500-999 V/m; red >=1000 V/m.",
         "; These colors are NOT official launch/lightning criteria.",
@@ -291,7 +249,8 @@ def build_placefile(
             f"Category: {category}\n"
             f"Observation: {o.time:%Y-%m-%d %H:%MZ}\n"
             f"Age: {age_min} min\n"
-            f"Source: NASA KSC Spaceport Weather Archive"
+            f"API status flag: {o.flag or 'none'} (meaning unconfirmed)\n"
+            f"Source: Live LPLWS one-minute API"
         )
 
         lines.append(f"Object: {lat:.8f}, {lon:.8f}")
@@ -309,33 +268,14 @@ def build_placefile(
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", help="Local KSC export CSV for testing")
+    ap.add_argument("--input", help="Local LPLWS API JSON or legacy KSC export CSV")
     ap.add_argument("--sites", default="docs/field_mill_sites.csv")
     ap.add_argument("--output", default="docs/ksc_fieldmills.txt")
     ap.add_argument("--json-output", default="docs/ksc_fieldmills.json")
-    ap.add_argument("--print-url", action="store_true")
-    ap.add_argument("--start", help="UTC start YYYY-MM-DDTHH:MM")
-    ap.add_argument("--end", help="UTC end YYYY-MM-DDTHH:MM")
     args = ap.parse_args()
-
-    if args.print_url:
-        if args.start and args.end:
-            start = datetime.strptime(args.start, "%Y-%m-%dT%H:%M").replace(tzinfo=timezone.utc)
-            end = datetime.strptime(args.end, "%Y-%m-%dT%H:%M").replace(tzinfo=timezone.utc)
-        else:
-            end = datetime.now(timezone.utc).replace(second=0, microsecond=0)
-            start = end - timedelta(minutes=int(os.getenv("LOOKBACK_MINUTES", "60")))
-        print(build_export_url(start, end))
-        return
-
-    text = (
-        Path(args.input).read_text(encoding="utf-8", errors="replace")
-        if args.input else fetch_export()
-    )
-
-    obs = parse_ksc_export_csv(text)
+    obs = read_observations(args.input) if args.input else fetch_observations()
     latest = latest_by_site(obs)
-    sites = load_sites(Path(args.sites))
+    sites = observation_sites(latest, load_sites(Path(args.sites)))
     now = datetime.now(timezone.utc)
 
     placefile = build_placefile(latest, sites, now)
@@ -344,8 +284,8 @@ def main():
 
     payload = {
         "generated_utc": now.isoformat(),
-        "source": "NASA KSC Spaceport Weather Archive",
-        "schema": ["OneMinuteMean", "Date", "Time", "MillNo"],
+        "source": "Live LPLWS one-minute API",
+        "schema": ["reading_date", "reading_time", "field_mill", "value", "flag", "lat", "lon"],
         "records_parsed": len(obs),
         "latest_station_count": len(latest),
         "station_count_plotted": sum(1 for s in latest if s in sites),
@@ -354,6 +294,8 @@ def main():
                 "site": o.site,
                 "time_utc": o.time.isoformat(),
                 "value_vpm": o.value_vpm,
+                "flag": o.flag,
+                "plotted": o.site in sites,
                 "latitude": sites.get(o.site, (None, None))[0],
                 "longitude": sites.get(o.site, (None, None))[1],
             }
