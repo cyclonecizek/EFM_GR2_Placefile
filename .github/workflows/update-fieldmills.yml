@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: ksc-fieldmill-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
