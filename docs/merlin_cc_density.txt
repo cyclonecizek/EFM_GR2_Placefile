@@ -3,83 +3,10 @@ RefreshSeconds: 60
 Threshold: 999
 Font: 2, 10, 0, "Wingdings"
 Font: 3, 12, 0, "Wingdings"
-; Generated UTC: 2026-11-01T12:04:00
+; Generated UTC: 2026-11-01T12:05:00
 ; One opaque outlined dot per occupied cell; no on-map caption.
 ; Counts are detection records, not flashes. Minute T counts [T-trail,T).
 ; Blue 1-4, cyan 5-19, green 20-49, yellow 50-99, orange 100-249, red 250+.
-TimeRange: 2026-11-01T11:04:00 2026-11-01T11:05:00
-Object: 29.5746886, -82.2015134
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.6159225, -80.4823169
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.6339089, -80.4516170
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.6339089, -80.4413837
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.5439768, -80.4209170
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.4900175, -80.4004504
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.4990107, -80.3902171
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.5169972, -80.3902171
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.5259904, -80.3799838
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.6249157, -80.3697505
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.6788749, -80.3390505
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
-Object: 26.4000854, -80.2776507
-Color: 15 20 25
-Text: 0, 0, 3, "l"
-Color: 50 120 240
-Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T11:04:00Z"
-End:
 TimeRange: 2026-11-01T11:05:00 2026-11-01T11:06:00
 Object: 29.5746886, -82.2015134
 Color: 15 20 25
@@ -15861,6 +15788,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
+End:
 Object: 26.9037052, -80.6255833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -15963,6 +15896,12 @@ Text: 0, 0, 3, "l"
 Color: 30 205 230
 Text: 0, 0, 2, "l", "6 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
 End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
+End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -16036,6 +15975,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
 End:
 Object: 26.7328342, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:05:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -16486,6 +16431,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
+End:
 Object: 26.9037052, -80.6255833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -16582,6 +16533,12 @@ Text: 0, 0, 3, "l"
 Color: 30 205 230
 Text: 0, 0, 2, "l", "6 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
 End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
+End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -16649,6 +16606,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
 End:
 Object: 26.7328342, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:06:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -17075,6 +17038,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
+End:
 Object: 26.6518953, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -17165,6 +17134,12 @@ Text: 0, 0, 3, "l"
 Color: 30 205 230
 Text: 0, 0, 2, "l", "6 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
 End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
+End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -17232,6 +17207,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
 End:
 Object: 26.7328342, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:07:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -17634,6 +17615,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
+End:
 Object: 26.6518953, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -17718,6 +17705,12 @@ Text: 0, 0, 3, "l"
 Color: 30 205 230
 Text: 0, 0, 2, "l", "5 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
 End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
+End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -17785,6 +17778,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
 End:
 Object: 26.7328342, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:08:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -18163,6 +18162,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -18222,6 +18227,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 30 205 230
 Text: 0, 0, 2, "l", "5 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -18284,6 +18295,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
 End:
 Object: 26.7328342, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:09:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -18608,6 +18625,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -18643,6 +18666,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "4 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -18699,6 +18728,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
 End:
 Object: 26.8857188, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:10:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -18993,6 +19028,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -19022,6 +19063,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "4 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -19078,6 +19125,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
 End:
 Object: 26.8857188, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:11:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -19360,6 +19413,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -19383,6 +19442,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "3 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -19433,6 +19498,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
 End:
 Object: 26.8857188, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:12:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -19697,6 +19768,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -19720,6 +19797,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "3 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -19752,6 +19835,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
 End:
 Object: 26.8317595, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:13:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -19986,6 +20075,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -20003,6 +20098,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "2 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -20029,6 +20130,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
 End:
 Object: 26.8317595, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:14:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20203,6 +20310,12 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
+End:
 Object: 26.7148478, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -20220,6 +20333,12 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "2 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
 End:
 Object: 26.9126984, -80.6153500
 Color: 15 20 25
@@ -20240,6 +20359,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
 End:
 Object: 26.8317595, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:15:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20366,7 +20491,19 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:16:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:16:00Z"
+End:
 Object: 26.7238410, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:16:00Z"
+End:
+Object: 26.9037052, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20391,6 +20528,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:16:00Z"
 End:
 Object: 26.8317595, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:16:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20469,7 +20612,19 @@ Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
 End:
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
+End:
 Object: 26.7238410, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
+End:
+Object: 26.9037052, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20488,6 +20643,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
 End:
 Object: 26.8317595, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20554,6 +20715,18 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:17:00Z"
 End:
 TimeRange: 2026-11-01T12:18:00 2026-11-01T12:19:00
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:18:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:18:00Z"
+End:
 Object: 27.0206169, -80.6153500
 Color: 15 20 25
 Text: 0, 0, 3, "l"
@@ -20561,6 +20734,12 @@ Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:18:00Z"
 End:
 Object: 26.7778003, -80.6051167
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:18:00Z"
+End:
+Object: 26.7508206, -80.5948833
 Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
@@ -20601,4 +20780,23 @@ Color: 15 20 25
 Text: 0, 0, 3, "l"
 Color: 50 120 240
 Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:18:00Z"
+End:
+TimeRange: 2026-11-01T12:19:00 2026-11-01T12:20:00
+Object: 26.8947120, -80.6255833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:19:00Z"
+End:
+Object: 26.9037052, -80.6153500
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:19:00Z"
+End:
+Object: 26.7508206, -80.5948833
+Color: 15 20 25
+Text: 0, 0, 3, "l"
+Color: 50 120 240
+Text: 0, 0, 2, "l", "1 CC detection records / approximately 1 km cell / trailing 15 min / 2026-11-01T12:19:00Z"
 End:
