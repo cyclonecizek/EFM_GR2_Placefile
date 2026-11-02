@@ -9,167 +9,167 @@ Font: 1, 12, 1, "Arial"
 ; green <500 V/m; yellow 500-999 V/m; red >=1000 V/m.
 ; These colors are NOT official launch/lightning criteria.
 Object: 28.70363000, -80.66856000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM01\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM01\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM01\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM01\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.68754000, -80.71951000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM02\n1-min Mean: +975 V/m (+0.975 kV/m)\nAbsolute EF: 975 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM02\n1-min Mean: +726 V/m (+0.726 kV/m)\nAbsolute EF: 726 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "+975", "KSC Electric Field Mill FM02\n1-min Mean: +975 V/m (+0.975 kV/m)\nAbsolute EF: 975 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+726", "KSC Electric Field Mill FM02\n1-min Mean: +726 V/m (+0.726 kV/m)\nAbsolute EF: 726 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.66433000, -80.63912000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM04\n1-min Mean: +577 V/m (+0.577 kV/m)\nAbsolute EF: 577 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
-Color: 255 205 25
-Text: -18, -34, 1, "+577", "KSC Electric Field Mill FM04\n1-min Mean: +577 V/m (+0.577 kV/m)\nAbsolute EF: 577 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM04\n1-min Mean: +426 V/m (+0.426 kV/m)\nAbsolute EF: 426 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Color: 40 220 70
+Text: -18, -34, 1, "+426", "KSC Electric Field Mill FM04\n1-min Mean: +426 V/m (+0.426 kV/m)\nAbsolute EF: 426 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.65818000, -80.69935000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM05\n1-min Mean: +686 V/m (+0.686 kV/m)\nAbsolute EF: 686 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM05\n1-min Mean: +604 V/m (+0.604 kV/m)\nAbsolute EF: 604 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "+686", "KSC Electric Field Mill FM05\n1-min Mean: +686 V/m (+0.686 kV/m)\nAbsolute EF: 686 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+604", "KSC Electric Field Mill FM05\n1-min Mean: +604 V/m (+0.604 kV/m)\nAbsolute EF: 604 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.64397000, -80.66638000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM06\n1-min Mean: +77 V/m (+0.077 kV/m)\nAbsolute EF: 77 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM06\n1-min Mean: +107 V/m (+0.107 kV/m)\nAbsolute EF: 107 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+77", "KSC Electric Field Mill FM06\n1-min Mean: +77 V/m (+0.077 kV/m)\nAbsolute EF: 77 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+107", "KSC Electric Field Mill FM06\n1-min Mean: +107 V/m (+0.107 kV/m)\nAbsolute EF: 107 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.64237000, -80.74761000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM07\n1-min Mean: +191 V/m (+0.191 kV/m)\nAbsolute EF: 191 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM07\n1-min Mean: +90 V/m (+0.090 kV/m)\nAbsolute EF: 90 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+191", "KSC Electric Field Mill FM07\n1-min Mean: +191 V/m (+0.191 kV/m)\nAbsolute EF: 191 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+90", "KSC Electric Field Mill FM07\n1-min Mean: +90 V/m (+0.090 kV/m)\nAbsolute EF: 90 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.63887000, -80.62253000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM08\n1-min Mean: +684 V/m (+0.684 kV/m)\nAbsolute EF: 684 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM08\n1-min Mean: +665 V/m (+0.665 kV/m)\nAbsolute EF: 665 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "+684", "KSC Electric Field Mill FM08\n1-min Mean: +684 V/m (+0.684 kV/m)\nAbsolute EF: 684 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+665", "KSC Electric Field Mill FM08\n1-min Mean: +665 V/m (+0.665 kV/m)\nAbsolute EF: 665 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.62141000, -80.60797000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM09\n1-min Mean: +1 V/m (+0.001 kV/m)\nAbsolute EF: 1 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM09\n1-min Mean: +1 V/m (+0.001 kV/m)\nAbsolute EF: 1 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+1", "KSC Electric Field Mill FM09\n1-min Mean: +1 V/m (+0.001 kV/m)\nAbsolute EF: 1 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+1", "KSC Electric Field Mill FM09\n1-min Mean: +1 V/m (+0.001 kV/m)\nAbsolute EF: 1 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.62412000, -80.70151000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM10\n1-min Mean: -297 V/m (-0.297 kV/m)\nAbsolute EF: 297 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM10\n1-min Mean: -177 V/m (-0.177 kV/m)\nAbsolute EF: 177 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "-297", "KSC Electric Field Mill FM10\n1-min Mean: -297 V/m (-0.297 kV/m)\nAbsolute EF: 297 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-177", "KSC Electric Field Mill FM10\n1-min Mean: -177 V/m (-0.177 kV/m)\nAbsolute EF: 177 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.60576000, -80.67387000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM11\n1-min Mean: -349 V/m (-0.349 kV/m)\nAbsolute EF: 349 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM11\n1-min Mean: -351 V/m (-0.351 kV/m)\nAbsolute EF: 351 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "-349", "KSC Electric Field Mill FM11\n1-min Mean: -349 V/m (-0.349 kV/m)\nAbsolute EF: 349 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-351", "KSC Electric Field Mill FM11\n1-min Mean: -351 V/m (-0.351 kV/m)\nAbsolute EF: 351 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.60226000, -80.64093000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM12\n1-min Mean: +363 V/m (+0.363 kV/m)\nAbsolute EF: 363 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
-Color: 40 220 70
-Text: -18, -34, 1, "+363", "KSC Electric Field Mill FM12\n1-min Mean: +363 V/m (+0.363 kV/m)\nAbsolute EF: 363 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM12\n1-min Mean: +568 V/m (+0.568 kV/m)\nAbsolute EF: 568 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Color: 255 205 25
+Text: -18, -34, 1, "+568", "KSC Electric Field Mill FM12\n1-min Mean: +568 V/m (+0.568 kV/m)\nAbsolute EF: 568 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 24.32590000, -82.50151000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM13\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM13\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM13\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM13\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.57852000, -80.60858000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM14\n1-min Mean: -574 V/m (-0.574 kV/m)\nAbsolute EF: 574 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM14\n1-min Mean: -903 V/m (-0.903 kV/m)\nAbsolute EF: 903 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-574", "KSC Electric Field Mill FM14\n1-min Mean: -574 V/m (-0.574 kV/m)\nAbsolute EF: 574 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-903", "KSC Electric Field Mill FM14\n1-min Mean: -903 V/m (-0.903 kV/m)\nAbsolute EF: 903 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.57675000, -80.64310000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM15\n1-min Mean: -321 V/m (-0.321 kV/m)\nAbsolute EF: 321 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
-Color: 40 220 70
-Text: -18, -34, 1, "-321", "KSC Electric Field Mill FM15\n1-min Mean: -321 V/m (-0.321 kV/m)\nAbsolute EF: 321 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM15\n1-min Mean: -515 V/m (-0.515 kV/m)\nAbsolute EF: 515 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Color: 255 205 25
+Text: -18, -34, 1, "-515", "KSC Electric Field Mill FM15\n1-min Mean: -515 V/m (-0.515 kV/m)\nAbsolute EF: 515 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.57529000, -80.57310000
-Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM16\n1-min Mean: +1230 V/m (+1.230 kV/m)\nAbsolute EF: 1230 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM16\n1-min Mean: +1264 V/m (+1.264 kV/m)\nAbsolute EF: 1264 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 55 55
-Text: -18, -34, 1, "+1230", "KSC Electric Field Mill FM16\n1-min Mean: +1230 V/m (+1.230 kV/m)\nAbsolute EF: 1230 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+1264", "KSC Electric Field Mill FM16\n1-min Mean: +1264 V/m (+1.264 kV/m)\nAbsolute EF: 1264 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.56204000, -80.67002000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM17\n1-min Mean: -986 V/m (-0.986 kV/m)\nAbsolute EF: 986 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM17\n1-min Mean: -899 V/m (-0.899 kV/m)\nAbsolute EF: 899 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-986", "KSC Electric Field Mill FM17\n1-min Mean: -986 V/m (-0.986 kV/m)\nAbsolute EF: 986 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-899", "KSC Electric Field Mill FM17\n1-min Mean: -899 V/m (-0.899 kV/m)\nAbsolute EF: 899 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.55517000, -80.70211000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM18\n1-min Mean: -806 V/m (-0.806 kV/m)\nAbsolute EF: 806 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM18\n1-min Mean: -893 V/m (-0.893 kV/m)\nAbsolute EF: 893 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-806", "KSC Electric Field Mill FM18\n1-min Mean: -806 V/m (-0.806 kV/m)\nAbsolute EF: 806 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-893", "KSC Electric Field Mill FM18\n1-min Mean: -893 V/m (-0.893 kV/m)\nAbsolute EF: 893 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.54948000, -80.62038000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM19\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM19\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM19\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM19\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.54170000, -80.64443000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM20\n1-min Mean: -692 V/m (-0.692 kV/m)\nAbsolute EF: 692 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
-Color: 255 205 25
-Text: -18, -34, 1, "-692", "KSC Electric Field Mill FM20\n1-min Mean: -692 V/m (-0.692 kV/m)\nAbsolute EF: 692 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM20\n1-min Mean: -477 V/m (-0.477 kV/m)\nAbsolute EF: 477 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Color: 40 220 70
+Text: -18, -34, 1, "-477", "KSC Electric Field Mill FM20\n1-min Mean: -477 V/m (-0.477 kV/m)\nAbsolute EF: 477 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.52575000, -80.62209000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM21\n1-min Mean: -625 V/m (-0.625 kV/m)\nAbsolute EF: 625 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM21\n1-min Mean: -558 V/m (-0.558 kV/m)\nAbsolute EF: 558 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-625", "KSC Electric Field Mill FM21\n1-min Mean: -625 V/m (-0.625 kV/m)\nAbsolute EF: 625 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-558", "KSC Electric Field Mill FM21\n1-min Mean: -558 V/m (-0.558 kV/m)\nAbsolute EF: 558 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.50692000, -80.69359000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM22\n1-min Mean: -534 V/m (-0.534 kV/m)\nAbsolute EF: 534 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM22\n1-min Mean: -563 V/m (-0.563 kV/m)\nAbsolute EF: 563 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-534", "KSC Electric Field Mill FM22\n1-min Mean: -534 V/m (-0.534 kV/m)\nAbsolute EF: 534 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-563", "KSC Electric Field Mill FM22\n1-min Mean: -563 V/m (-0.563 kV/m)\nAbsolute EF: 563 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.47676000, -80.67485000
-Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM24\n1-min Mean: -2189 V/m (-2.189 kV/m)\nAbsolute EF: 2189 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM24\n1-min Mean: -2152 V/m (-2.152 kV/m)\nAbsolute EF: 2152 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 55 55
-Text: -18, -34, 1, "-2189", "KSC Electric Field Mill FM24\n1-min Mean: -2189 V/m (-2.189 kV/m)\nAbsolute EF: 2189 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-2152", "KSC Electric Field Mill FM24\n1-min Mean: -2152 V/m (-2.152 kV/m)\nAbsolute EF: 2152 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.42473000, -80.66379000
-Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM25\n1-min Mean: -1477 V/m (-1.477 kV/m)\nAbsolute EF: 1477 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM25\n1-min Mean: -1658 V/m (-1.658 kV/m)\nAbsolute EF: 1658 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 55 55
-Text: -18, -34, 1, "-1477", "KSC Electric Field Mill FM25\n1-min Mean: -1477 V/m (-1.477 kV/m)\nAbsolute EF: 1477 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-1658", "KSC Electric Field Mill FM25\n1-min Mean: -1658 V/m (-1.658 kV/m)\nAbsolute EF: 1658 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.54937000, -80.56698000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM26\n1-min Mean: -5 V/m (-0.005 kV/m)\nAbsolute EF: 5 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM26\n1-min Mean: -4 V/m (-0.004 kV/m)\nAbsolute EF: 4 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "-5", "KSC Electric Field Mill FM26\n1-min Mean: -5 V/m (-0.005 kV/m)\nAbsolute EF: 5 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-4", "KSC Electric Field Mill FM26\n1-min Mean: -4 V/m (-0.004 kV/m)\nAbsolute EF: 4 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.50308000, -80.55812000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM27\n1-min Mean: -366 V/m (-0.366 kV/m)\nAbsolute EF: 366 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM27\n1-min Mean: -406 V/m (-0.406 kV/m)\nAbsolute EF: 406 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "-366", "KSC Electric Field Mill FM27\n1-min Mean: -366 V/m (-0.366 kV/m)\nAbsolute EF: 366 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-406", "KSC Electric Field Mill FM27\n1-min Mean: -406 V/m (-0.406 kV/m)\nAbsolute EF: 406 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.46023000, -80.52722000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM28\n1-min Mean: +26 V/m (+0.026 kV/m)\nAbsolute EF: 26 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM28\n1-min Mean: +27 V/m (+0.027 kV/m)\nAbsolute EF: 27 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+26", "KSC Electric Field Mill FM28\n1-min Mean: +26 V/m (+0.026 kV/m)\nAbsolute EF: 26 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+27", "KSC Electric Field Mill FM28\n1-min Mean: +27 V/m (+0.027 kV/m)\nAbsolute EF: 27 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.46256000, -80.58355000
-Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM29\n1-min Mean: -783 V/m (-0.783 kV/m)\nAbsolute EF: 783 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 2, "KSC Electric Field Mill FM29\n1-min Mean: -709 V/m (-0.709 kV/m)\nAbsolute EF: 709 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 205 25
-Text: -18, -34, 1, "-783", "KSC Electric Field Mill FM29\n1-min Mean: -783 V/m (-0.783 kV/m)\nAbsolute EF: 783 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-709", "KSC Electric Field Mill FM29\n1-min Mean: -709 V/m (-0.709 kV/m)\nAbsolute EF: 709 V/m\nCategory: YELLOW\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.47511000, -80.55841000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM30\n1-min Mean: +2 V/m (+0.002 kV/m)\nAbsolute EF: 2 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM30\n1-min Mean: +170 V/m (+0.170 kV/m)\nAbsolute EF: 170 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+2", "KSC Electric Field Mill FM30\n1-min Mean: +2 V/m (+0.002 kV/m)\nAbsolute EF: 2 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+170", "KSC Electric Field Mill FM30\n1-min Mean: +170 V/m (+0.170 kV/m)\nAbsolute EF: 170 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.42033000, -80.59115000
-Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM31\n1-min Mean: -1280 V/m (-1.280 kV/m)\nAbsolute EF: 1280 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM31\n1-min Mean: -1424 V/m (-1.424 kV/m)\nAbsolute EF: 1424 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 55 55
-Text: -18, -34, 1, "-1280", "KSC Electric Field Mill FM31\n1-min Mean: -1280 V/m (-1.280 kV/m)\nAbsolute EF: 1280 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-1424", "KSC Electric Field Mill FM31\n1-min Mean: -1424 V/m (-1.424 kV/m)\nAbsolute EF: 1424 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.43688000, -80.58000000
-Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM32\n1-min Mean: -1370 V/m (-1.370 kV/m)\nAbsolute EF: 1370 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 3, "KSC Electric Field Mill FM32\n1-min Mean: -1256 V/m (-1.256 kV/m)\nAbsolute EF: 1256 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 255 55 55
-Text: -18, -34, 1, "-1370", "KSC Electric Field Mill FM32\n1-min Mean: -1370 V/m (-1.370 kV/m)\nAbsolute EF: 1370 V/m\nCategory: RED\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "-1256", "KSC Electric Field Mill FM32\n1-min Mean: -1256 V/m (-1.256 kV/m)\nAbsolute EF: 1256 V/m\nCategory: RED\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 24.32590000, -82.50151000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM33\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM33\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM33\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM33\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.44982000, -80.56349000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM34\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM34\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM34\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+0", "KSC Electric Field Mill FM34\n1-min Mean: +0 V/m (+0.000 kV/m)\nAbsolute EF: 0 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: X (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
 Object: 28.60148000, -80.59033000
-Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM35\n1-min Mean: -25 V/m (-0.025 kV/m)\nAbsolute EF: 25 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Icon: 0, 0, 0, 1, 1, "KSC Electric Field Mill FM35\n1-min Mean: +148 V/m (+0.148 kV/m)\nAbsolute EF: 148 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 Color: 40 220 70
-Text: -18, -34, 1, "-25", "KSC Electric Field Mill FM35\n1-min Mean: -25 V/m (-0.025 kV/m)\nAbsolute EF: 25 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:58Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
+Text: -18, -34, 1, "+148", "KSC Electric Field Mill FM35\n1-min Mean: +148 V/m (+0.148 kV/m)\nAbsolute EF: 148 V/m\nCategory: GREEN\nObservation: 2026-11-02 14:59Z\nAge: 2 min\nAPI status flag: none (meaning unconfirmed)\nSource: Live LPLWS one-minute API"
 End:
