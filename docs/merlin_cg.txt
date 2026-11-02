@@ -2,18 +2,15 @@ Title: MERLIN CG / trailing 15 min
 RefreshSeconds: 60
 Threshold: 999
 Font: 1, 13, 1, "Arial"
-; Generated UTC: 2026-11-02T19:33:00
+; Generated UTC: 2026-11-02T19:37:00
 ; Gold CG crosses match LaunchWeatherReplay. Counts are detections, not flashes.
-TimeRange: 2026-11-02T18:33:00 2026-11-02T18:36:38
-Color: 255 210 80
-Text: 26.8430556, -81.0744444, 1, "+", "CG detection / 2026-11-02T18:21:38.6784704Z / signal strength 49.3 (source units)"
-TimeRange: 2026-11-02T18:33:00 2026-11-02T18:41:42
+TimeRange: 2026-11-02T18:37:00 2026-11-02T18:41:42
 Color: 255 210 80
 Text: 27.2533333, -80.4005556, 1, "+", "CG detection / 2026-11-02T18:26:42.4983913Z / signal strength -21.9 (source units)"
-TimeRange: 2026-11-02T18:33:00 2026-11-02T18:46:18
+TimeRange: 2026-11-02T18:37:00 2026-11-02T18:46:18
 Color: 255 210 80
 Text: 26.8822222, -80.1319444, 1, "+", "CG detection / 2026-11-02T18:31:18.5848978Z / signal strength -109.6 (source units)"
-TimeRange: 2026-11-02T18:36:29 2026-11-02T18:51:28
+TimeRange: 2026-11-02T18:37:00 2026-11-02T18:51:28
 Color: 255 210 80
 Text: 26.8808333, -80.1180556, 1, "+", "CG detection / 2026-11-02T18:36:28.9722773Z / signal strength -272.3 (source units)"
 TimeRange: 2026-11-02T18:39:48 2026-11-02T18:54:47
@@ -163,3 +160,42 @@ Text: 27.8222222, -80.2216667, 1, "+", "CG detection / 2026-11-02T19:31:16.94032
 TimeRange: 2026-11-02T19:31:17 2026-11-02T19:46:16
 Color: 255 210 80
 Text: 27.8338889, -80.2302778, 1, "+", "CG detection / 2026-11-02T19:31:16.9912903Z / signal strength -25.1 (source units)"
+TimeRange: 2026-11-02T19:32:47 2026-11-02T19:47:46
+Color: 255 210 80
+Text: 27.7419444, -80.1775000, 1, "+", "CG detection / 2026-11-02T19:32:46.9923718Z / signal strength 10.5 (source units)"
+TimeRange: 2026-11-02T19:33:27 2026-11-02T19:48:26
+Color: 255 210 80
+Text: 27.7883333, -80.2544444, 1, "+", "CG detection / 2026-11-02T19:33:26.4779757Z / signal strength 18.6 (source units)"
+TimeRange: 2026-11-02T19:33:27 2026-11-02T19:48:26
+Color: 255 210 80
+Text: 27.7097222, -80.1952778, 1, "+", "CG detection / 2026-11-02T19:33:26.4904094Z / signal strength 9.4 (source units)"
+TimeRange: 2026-11-02T19:33:27 2026-11-02T19:48:26
+Color: 255 210 80
+Text: 27.7380556, -80.2136111, 1, "+", "CG detection / 2026-11-02T19:33:26.4908492Z / signal strength 8.7 (source units)"
+TimeRange: 2026-11-02T19:33:34 2026-11-02T19:48:33
+Color: 255 210 80
+Text: 27.6972222, -80.1822222, 1, "+", "CG detection / 2026-11-02T19:33:33.7514503Z / signal strength 9.5 (source units)"
+TimeRange: 2026-11-02T19:33:35 2026-11-02T19:48:34
+Color: 255 210 80
+Text: 27.7727778, -80.3411111, 1, "+", "CG detection / 2026-11-02T19:33:34.8220262Z / signal strength -10.7 (source units)"
+TimeRange: 2026-11-02T19:34:15 2026-11-02T19:49:14
+Color: 255 210 80
+Text: 27.7966667, -80.3188889, 1, "+", "CG detection / 2026-11-02T19:34:14.2705410Z / signal strength -10.1 (source units)"
+TimeRange: 2026-11-02T19:34:51 2026-11-02T19:49:50
+Color: 255 210 80
+Text: 27.8219444, -80.2838889, 1, "+", "CG detection / 2026-11-02T19:34:50.5484647Z / signal strength 6.8 (source units)"
+TimeRange: 2026-11-02T19:34:57 2026-11-02T19:49:56
+Color: 255 210 80
+Text: 27.8313889, -80.3680556, 1, "+", "CG detection / 2026-11-02T19:34:56.3785104Z / signal strength -21.4 (source units)"
+TimeRange: 2026-11-02T19:34:57 2026-11-02T19:49:56
+Color: 255 210 80
+Text: 27.7916667, -80.3466667, 1, "+", "CG detection / 2026-11-02T19:34:56.5734765Z / signal strength -12.7 (source units)"
+TimeRange: 2026-11-02T19:35:12 2026-11-02T19:50:11
+Color: 255 210 80
+Text: 27.7841667, -80.2802778, 1, "+", "CG detection / 2026-11-02T19:35:11.5434480Z / signal strength 9.4 (source units)"
+TimeRange: 2026-11-02T19:35:30 2026-11-02T19:50:29
+Color: 255 210 80
+Text: 27.8130556, -80.2758333, 1, "+", "CG detection / 2026-11-02T19:35:29.4043600Z / signal strength 5.2 (source units)"
+TimeRange: 2026-11-02T19:36:09 2026-11-02T19:51:08
+Color: 255 210 80
+Text: 27.7386111, -80.3002778, 1, "+", "CG detection / 2026-11-02T19:36:08.4849800Z / signal strength -12.7 (source units)"
