@@ -2,21 +2,21 @@ Title: MERLIN CG / trailing 15 min
 RefreshSeconds: 60
 Threshold: 999
 Font: 1, 13, 1, "Arial"
-; Generated UTC: 2026-11-03T20:56:00
+; Generated UTC: 2026-11-03T21:00:00
 ; Gold CG crosses match LaunchWeatherReplay. Counts are detections, not flashes.
-TimeRange: 2026-11-03T19:56:00 2026-11-03T20:01:50
+TimeRange: 2026-11-03T20:00:00 2026-11-03T20:01:50
 Color: 255 210 80
 Text: 27.5830556, -80.3450000, 1, "+", "CG detection / 2026-11-03T19:46:50.6698570Z / signal strength -78.5 (source units)"
-TimeRange: 2026-11-03T19:56:00 2026-11-03T20:01:50
+TimeRange: 2026-11-03T20:00:00 2026-11-03T20:01:50
 Color: 255 210 80
 Text: 27.5808333, -80.3844444, 1, "+", "CG detection / 2026-11-03T19:46:50.7630815Z / signal strength -19.7 (source units)"
-TimeRange: 2026-11-03T19:56:00 2026-11-03T20:01:50
+TimeRange: 2026-11-03T20:00:00 2026-11-03T20:01:50
 Color: 255 210 80
 Text: 27.5827778, -80.3872222, 1, "+", "CG detection / 2026-11-03T19:46:50.9166379Z / signal strength -17.4 (source units)"
-TimeRange: 2026-11-03T19:56:00 2026-11-03T20:05:28
+TimeRange: 2026-11-03T20:00:00 2026-11-03T20:05:28
 Color: 255 210 80
 Text: 26.7025000, -81.7777778, 1, "+", "CG detection / 2026-11-03T19:50:28.4662364Z / signal strength -115.6 (source units)"
-TimeRange: 2026-11-03T19:56:00 2026-11-03T20:10:08
+TimeRange: 2026-11-03T20:00:00 2026-11-03T20:10:08
 Color: 255 210 80
 Text: 26.6380556, -81.8308333, 1, "+", "CG detection / 2026-11-03T19:55:08.7959482Z / signal strength -107.7 (source units)"
 TimeRange: 2026-11-03T20:00:31 2026-11-03T20:15:30
@@ -439,3 +439,6 @@ Text: 26.7741667, -82.1236111, 1, "+", "CG detection / 2026-11-03T20:55:21.51676
 TimeRange: 2026-11-03T20:55:36 2026-11-03T21:10:35
 Color: 255 210 80
 Text: 27.8008333, -80.7483333, 1, "+", "CG detection / 2026-11-03T20:55:35.2216327Z / signal strength 8.4 (source units)"
+TimeRange: 2026-11-03T20:57:45 2026-11-03T21:12:44
+Color: 255 210 80
+Text: 27.8580556, -80.7494444, 1, "+", "CG detection / 2026-11-03T20:57:44.9082887Z / signal strength 10.6 (source units)"
