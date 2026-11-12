@@ -2,18 +2,18 @@ Title: MERLIN CG / trailing 15 min
 RefreshSeconds: 60
 Threshold: 999
 Font: 1, 13, 1, "Arial"
-; Generated UTC: 2026-11-12T00:12:00
+; Generated UTC: 2026-11-12T00:13:00
 ; Gold CG crosses match LaunchWeatherReplay. Counts are detections, not flashes.
-TimeRange: 2026-11-11T23:12:38 2026-11-11T23:27:37
+TimeRange: 2026-11-11T23:13:00 2026-11-11T23:27:37
 Color: 255 210 80
 Text: 28.8466667, -79.4583333, 1, "+", "CG detection / 2026-11-11T23:12:37.4121269Z / signal strength -21.8 (source units)"
-TimeRange: 2026-11-11T23:12:38 2026-11-11T23:27:37
+TimeRange: 2026-11-11T23:13:00 2026-11-11T23:27:37
 Color: 255 210 80
 Text: 28.8308333, -79.4508333, 1, "+", "CG detection / 2026-11-11T23:12:37.4865882Z / signal strength -23.1 (source units)"
-TimeRange: 2026-11-11T23:12:38 2026-11-11T23:27:37
+TimeRange: 2026-11-11T23:13:00 2026-11-11T23:27:37
 Color: 255 210 80
 Text: 28.8377778, -79.5113889, 1, "+", "CG detection / 2026-11-11T23:12:37.5377955Z / signal strength -17.5 (source units)"
-TimeRange: 2026-11-11T23:12:38 2026-11-11T23:27:37
+TimeRange: 2026-11-11T23:13:00 2026-11-11T23:27:37
 Color: 255 210 80
 Text: 28.8472222, -79.4777778, 1, "+", "CG detection / 2026-11-11T23:12:37.6995458Z / signal strength -35.7 (source units)"
 TimeRange: 2026-11-11T23:13:11 2026-11-11T23:28:10
@@ -508,3 +508,21 @@ Text: 28.8802778, -79.1136111, 1, "+", "CG detection / 2026-11-12T00:10:41.89810
 TimeRange: 2026-11-12T00:11:16 2026-11-12T00:26:15
 Color: 255 210 80
 Text: 28.7905556, -79.3019444, 1, "+", "CG detection / 2026-11-12T00:11:15.4505349Z / signal strength 18.5 (source units)"
+TimeRange: 2026-11-12T00:11:45 2026-11-12T00:26:44
+Color: 255 210 80
+Text: 28.6261111, -79.7858333, 1, "+", "CG detection / 2026-11-12T00:11:44.6103689Z / signal strength 10.6 (source units)"
+TimeRange: 2026-11-12T00:12:03 2026-11-12T00:27:02
+Color: 255 210 80
+Text: 28.8277778, -79.3969444, 1, "+", "CG detection / 2026-11-12T00:12:02.6144018Z / signal strength -18.0 (source units)"
+TimeRange: 2026-11-12T00:12:04 2026-11-12T00:27:03
+Color: 255 210 80
+Text: 28.8155556, -79.3727778, 1, "+", "CG detection / 2026-11-12T00:12:03.0431314Z / signal strength -34.5 (source units)"
+TimeRange: 2026-11-12T00:12:08 2026-11-12T00:27:07
+Color: 255 210 80
+Text: 27.9580556, -80.8586111, 1, "+", "CG detection / 2026-11-12T00:12:07.4170146Z / signal strength 6.8 (source units)"
+TimeRange: 2026-11-12T00:12:22 2026-11-12T00:27:21
+Color: 255 210 80
+Text: 28.8950000, -79.0450000, 1, "+", "CG detection / 2026-11-12T00:12:21.1390568Z / signal strength -57.6 (source units)"
+TimeRange: 2026-11-12T00:12:22 2026-11-12T00:27:21
+Color: 255 210 80
+Text: 28.8894444, -79.0794444, 1, "+", "CG detection / 2026-11-12T00:12:21.8676697Z / signal strength -26.3 (source units)"
