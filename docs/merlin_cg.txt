@@ -2,7 +2,7 @@ Title: MERLIN CG / trailing 15 min
 RefreshSeconds: 60
 Threshold: 999
 Font: 1, 13, 1, "Arial"
-; Generated UTC: 2026-11-20T19:00:00
+; Generated UTC: 2026-11-20T19:02:00
 ; Gold CG crosses match LaunchWeatherReplay. Counts are detections, not flashes.
 TimeRange: 2026-11-20T18:08:17 2026-11-20T18:23:16
 Color: 255 210 80
@@ -433,3 +433,15 @@ Text: 29.4066667, -80.2530556, 1, "+", "CG detection / 2026-11-20T18:59:37.03218
 TimeRange: 2026-11-20T18:59:38 2026-11-20T19:14:37
 Color: 255 210 80
 Text: 29.3705556, -80.1622222, 1, "+", "CG detection / 2026-11-20T18:59:37.5221242Z / signal strength 11.0 (source units)"
+TimeRange: 2026-11-20T19:00:51 2026-11-20T19:15:50
+Color: 255 210 80
+Text: 29.2644444, -80.1247222, 1, "+", "CG detection / 2026-11-20T19:00:50.8429657Z / signal strength 14.1 (source units)"
+TimeRange: 2026-11-20T19:00:52 2026-11-20T19:15:51
+Color: 255 210 80
+Text: 29.3888889, -80.2022222, 1, "+", "CG detection / 2026-11-20T19:00:51.4745089Z / signal strength -137.7 (source units)"
+TimeRange: 2026-11-20T19:00:52 2026-11-20T19:15:51
+Color: 255 210 80
+Text: 29.3527778, -80.2219444, 1, "+", "CG detection / 2026-11-20T19:00:51.5466238Z / signal strength -57.2 (source units)"
+TimeRange: 2026-11-20T19:00:52 2026-11-20T19:15:51
+Color: 255 210 80
+Text: 29.3536111, -80.2230556, 1, "+", "CG detection / 2026-11-20T19:00:51.7752239Z / signal strength -35.9 (source units)"
