@@ -2,21 +2,21 @@ Title: MERLIN CG / trailing 15 min
 RefreshSeconds: 60
 Threshold: 999
 Font: 1, 13, 1, "Arial"
-; Generated UTC: 2026-11-21T12:15:00
+; Generated UTC: 2026-11-21T12:16:00
 ; Gold CG crosses match LaunchWeatherReplay. Counts are detections, not flashes.
-TimeRange: 2026-11-21T11:15:00 2026-11-21T11:24:50
+TimeRange: 2026-11-21T11:16:00 2026-11-21T11:24:50
 Color: 255 210 80
 Text: 26.9113889, -81.7988889, 1, "+", "CG detection / 2026-11-21T11:09:50.7879106Z / signal strength -107.4 (source units)"
-TimeRange: 2026-11-21T11:15:00 2026-11-21T11:26:22
+TimeRange: 2026-11-21T11:16:00 2026-11-21T11:26:22
 Color: 255 210 80
 Text: 26.9161111, -81.8161111, 1, "+", "CG detection / 2026-11-21T11:11:22.3525765Z / signal strength -83.9 (source units)"
-TimeRange: 2026-11-21T11:15:00 2026-11-21T11:27:17
+TimeRange: 2026-11-21T11:16:00 2026-11-21T11:27:17
 Color: 255 210 80
 Text: 26.8986111, -81.8044444, 1, "+", "CG detection / 2026-11-21T11:12:17.4334023Z / signal strength -102.2 (source units)"
-TimeRange: 2026-11-21T11:15:00 2026-11-21T11:28:05
+TimeRange: 2026-11-21T11:16:00 2026-11-21T11:28:05
 Color: 255 210 80
 Text: 26.9586111, -81.7733333, 1, "+", "CG detection / 2026-11-21T11:13:05.6185849Z / signal strength -89.1 (source units)"
-TimeRange: 2026-11-21T11:15:00 2026-11-21T11:28:57
+TimeRange: 2026-11-21T11:16:00 2026-11-21T11:28:57
 Color: 255 210 80
 Text: 26.9211111, -81.8022222, 1, "+", "CG detection / 2026-11-21T11:13:57.4144151Z / signal strength -89.0 (source units)"
 TimeRange: 2026-11-21T11:16:27 2026-11-21T11:31:26
@@ -34,3 +34,6 @@ Text: 26.9350000, -81.7152778, 1, "+", "CG detection / 2026-11-21T11:28:18.94004
 TimeRange: 2026-11-21T12:07:27 2026-11-21T12:22:26
 Color: 255 210 80
 Text: 30.4411111, -80.3600000, 1, "+", "CG detection / 2026-11-21T12:07:26.3290038Z / signal strength -151.7 (source units)"
+TimeRange: 2026-11-21T12:14:51 2026-11-21T12:29:50
+Color: 255 210 80
+Text: 30.5286111, -80.3938889, 1, "+", "CG detection / 2026-11-21T12:14:50.7976901Z / signal strength -225.4 (source units)"
