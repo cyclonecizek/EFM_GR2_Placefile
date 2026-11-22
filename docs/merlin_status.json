@@ -1,21 +1,21 @@
 {
-  "generated_utc": "2026-11-22T03:48:00+00:00",
-  "window_start_utc": "2026-11-22T02:33:00+00:00",
+  "generated_utc": "2026-11-22T03:49:00+00:00",
+  "window_start_utc": "2026-11-22T02:34:00+00:00",
   "trail_minutes": 15,
   "history_minutes": 60,
   "source": "MERLIN C2C/C2G APIs",
   "feeds": {
     "c2c": {
-      "records": 3329,
+      "records": 3226,
       "rejected": 0,
-      "newest_event_utc": "2026-11-22T03:47:30.134300+00:00",
-      "current_window_records": 237
+      "newest_event_utc": "2026-11-22T03:48:49.963500+00:00",
+      "current_window_records": 249
     },
     "c2g": {
-      "records": 178,
+      "records": 172,
       "rejected": 0,
-      "newest_event_utc": "2026-11-22T03:47:26.931902+00:00",
-      "current_window_records": 31
+      "newest_event_utc": "2026-11-22T03:48:16.704523+00:00",
+      "current_window_records": 33
     }
   }
 }
